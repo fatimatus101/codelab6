@@ -23,7 +23,7 @@ public class LoginApp extends Application {
 
     public LoginApp() {
     }
-
+    @Override
     public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
         primaryStage.setTitle("Login");
